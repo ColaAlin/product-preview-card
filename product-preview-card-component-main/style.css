@@ -1,0 +1,91 @@
+body {
+  background-color: hsl(30, 38%, 92%);
+}
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 30px;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 10px;
+  width: 500px;
+  height: 350px;
+  margin-left: 30%;
+  margin-top: 15%;
+}
+.description {
+  width: 300px;
+}
+.perfume {
+  font-size: 14px;
+  letter-spacing: 8px;
+  font-family: "Montserrat", sans-serif;
+}
+.title {
+  font-weight: bold;
+  height: 100px;
+  width: 210px;
+  font-size: 30px;
+}
+img {
+  height: 350px;
+  width: 220px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  width: 220px;
+}
+.price {
+  display: grid;
+  grid-template-columns: repeat(2, 150px);
+  padding-left: 15px;
+}
+.price-is {
+  color: hsl(158, 36%, 37%);
+  font-size: 25px;
+  font-weight: bold;
+}
+.price-was {
+  font-family: "Montserrat", sans-serif;
+  padding-top: 10px;
+  text-decoration: line-through;
+  font-size: 10px;
+}
+.btn-wrapper {
+  padding-top: 10px;
+  display: grid;
+  align-items: center;
+}
+button {
+  background-color: hsl(158, 36%, 37%);
+  color: white;
+  border: 1px solid hsl(158, 36%, 37%);
+  border-radius: 5px;
+  width: 200px;
+  height: 30px;
+  font-size: 14px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+@media screen and (min-width: 375px) {
+  main {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  main {
+    font-size: 20px;
+  }
+}
